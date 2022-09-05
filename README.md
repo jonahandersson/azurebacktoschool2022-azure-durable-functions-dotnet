@@ -48,6 +48,8 @@ This demo also relates to another demo to GitHub Repo and #AzureBacktoSchool2022
 - <a href="https://docs.microsoft.com/en-us/azure/azure-functions/?WT.mc_id=AZ-MVP-5004251" target="_blank">Azure Functions Documentation</a>
 - <a href="https://www.twilio.com/blog/send-emails-using-the-sendgrid-api-with-dotnetnet-6-and-csharp" target="_blank">How to send Emails with C# and .NET 6 using the SendGrid API</a>
 - <a href="https://docs.sendgrid.com/for-developers/sending-email/api-getting-started" target="_blank">Getting Started with SendGrid API / Twilio</a>
+- <a href="https://www.serverlesslibrary.net/">Serverless Azure Community Library/</a>
+- <a href="https://bit.ly/az-func-uni" >Azure Functions University</a> 
 
 #### Contact Author Jonah Andersson for contributions and collaborate to improve this example repo
 
