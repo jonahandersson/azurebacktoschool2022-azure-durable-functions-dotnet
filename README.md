@@ -1,7 +1,5 @@
 # Azure Durable Functions for .NET  Demo Example for Azure Back to School 2022
 
-Relates to GitHub Repo and #AzureBacktoSchool2022 presentation <a href="https://github.com/jonahandersson/azurebacktoschool2022-azure-service-bus-dotnet" target="_blank">A Technical Overview of Azure Service Bus Example</a>
-
 ##### Example Code Demo
 ### Azure Back to School 2022 by <a href="https://linkedin.com/in/jonahandersson" target="_blank">Jonah Anderssson</a>
 
@@ -38,7 +36,10 @@ Relates to GitHub Repo and #AzureBacktoSchool2022 presentation <a href="https://
 - Azure Functions (Latest Version) 
 - Azure Functions Core Tools 
 
-#### Learning References:
+Relates to GitHub Repo and #AzureBacktoSchool2022 presentation <a href="https://github.com/jonahandersson/azurebacktoschool2022-azure-service-bus-dotnet" target="_blank">A Technical Overview of Azure Service Bus Example</a>
+
+
+#### Recommended Learning References:
 
 - <a href="https://docs.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-overview?tabs=csharp?WT.mc_id=AZ-MVP-5004251">Microsoft Documentation: Azure Durable Functions</a>
 - <a href="https://docs.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-dotnet-entities?WT.mc_id=AZ-MVP-5004251">Developer's guide to durable entities in .NET</a>
