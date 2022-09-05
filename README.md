@@ -36,7 +36,7 @@
 - Azure Functions (Latest Version) 
 - Azure Functions Core Tools 
 
-Relates to GitHub Repo and #AzureBacktoSchool2022 presentation <a href="https://github.com/jonahandersson/azurebacktoschool2022-azure-service-bus-dotnet" target="_blank">A Technical Overview of Azure Service Bus Example</a>
+This demo also relates to another demo to GitHub Repo and #AzureBacktoSchool2022 presentation <a href="https://github.com/jonahandersson/azurebacktoschool2022-azure-service-bus-dotnet" target="_blank">A Technical Overview of Azure Service Bus Example</a>
 
 
 #### Recommended Learning References:
