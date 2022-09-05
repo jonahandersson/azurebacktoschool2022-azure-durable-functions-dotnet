@@ -14,28 +14,16 @@ namespace MessageSenderService.DurableFunctions.Activities
     public static class SendEmailActivity
     {
         [FunctionName("SendEmail")]
-        public static async Task<string> SendEmailAsync([ActivityTrigger] string serviceBusQueueMessage, ILogger log)
+        public static async Task<bool> SendEmail([ActivityTrigger] string serviceBusQueueMessage, ILogger log)
         {         
 
             try
             {
                 log.LogInformation($"SendEmailActivity trigged from the durable orchestratoion");
 
-                if (serviceBusQueueMessage != null)
-                {
-                    log.LogInformation($"Sending email to recipient with queue message: {serviceBusQueueMessage}.");
-                    bool result = await SendEmailAsync(serviceBusQueueMessage);
-                    if (result == false)
-                    {
-                       
-                        return $"Email not sent!";
-                    }
-                    else
-                    {
-                        log.LogInformation($"Sending email with message: {serviceBusQueueMessage}");
-                    }
-                }
-                    return $"Email was sent successfully!";
+                log.LogInformation($"Sending email to recipient with queue message: {serviceBusQueueMessage}.");
+                bool result = await SendEmailAsync(serviceBusQueueMessage);
+                return result;
             }
             catch (Exception)
             {
