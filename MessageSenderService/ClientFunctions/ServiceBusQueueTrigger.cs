@@ -8,7 +8,7 @@ using Microsoft.Azure.WebJobs.Host;
 using Microsoft.Extensions.Logging;
 using System.Collections.Generic;
 using System.IO;
-using Microsoft.Azure.ServiceBus;
+using Microsoft.Azure;
 
 namespace MessageSenderService.DurableFunctions.ClientFunctions
 {
@@ -25,7 +25,7 @@ namespace MessageSenderService.DurableFunctions.ClientFunctions
                 log.LogInformation($"C# ServiceBus queue trigger function processed message: {myServiceBusQueueItem}");
 
                 // When the service bus is triggered by a new queue message it initiates the orchestrator 
-                string orchestrationInstanceId = await starter.StartNewAsync("ServiceBusQueueOrchestator", null);
+                string orchestrationInstanceId = await starter.StartNewAsync("ServiceBusQueueOrchestrator", myServiceBusQueueItem);
 
                 log.LogInformation($"Started orchestration with ID = '{orchestrationInstanceId}'.");
             }
