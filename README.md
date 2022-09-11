@@ -10,6 +10,10 @@
 
 .NET 6.0 example implementation of Azure Durable Functions in .NET 6 using Azure Service Bus Queue Trigger (Durable Functions with Function Chaining Pattern) that is used to receive or retrieve the batch of service bus queue messages. Each queue message received will then be forward by email using SendGrid API 
 
+*Note:* .NET 7 is here and it supports Azure Functions too! 
+If you are interested to learn more about it, check out this Microsoft Developer Blog <a href="https://devblogs.microsoft.com/dotnet/dotnet-7-comes-to-azure-functions/" target="_blank">.NET 7 comes to Azure Functions & Visual Studio 2022</a>
+ 
+
 #### Example of Application Pattern - Function Chaining 
 
 ![alt text](https://jonahsstorage.blob.core.windows.net/jcaphotos/AzureDurableFunctions_FunctionChaininingDotNet.png) 
